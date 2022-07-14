@@ -18,11 +18,6 @@ class GridWindow(Gtk.Window):
         HB.props.title = "PROGRAMACION AVANZADA"
         self.set_titlebar(HB)
 
-        self.button_about = Gtk.Button.new_from_icon_name(
-            "gtk-about", Gtk.IconSize.MENU)
-        #self.button_about.connect("clicked", self.button_about_clicked)
-        HB.pack_start(self.button_about)
-
         label1 = Gtk.Label(label="Texto 1")
         entry1 = Gtk.Entry()
         label2 = Gtk.Label(label="Texto 2")
